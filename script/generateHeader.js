@@ -46,4 +46,4 @@ const generateHeader = () => {
 
 };
 
-generateHeader();
+export default generateHeader;

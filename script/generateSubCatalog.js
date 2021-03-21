@@ -33,4 +33,4 @@ const generateSubCatalog = () => {
 
 };
 
-generateSubCatalog();
+export default generateSubCatalog;

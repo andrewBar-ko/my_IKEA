@@ -46,4 +46,4 @@ const generateFooter = () => {
 
 };
 
-generateFooter();
+export default generateFooter;
