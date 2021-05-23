@@ -11,7 +11,7 @@ export const getCatalog = () => {
 
     const overlay = document.createElement('div');
     overlay.classList.add('overlay');
-    document.body.insertAdjacentElement('beforeend', overlay);
+    document.body.append(overlay);
 
     // Меню 
     const openMenu = () => {
